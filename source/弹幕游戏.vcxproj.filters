@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\碰撞管理">
+      <UniqueIdentifier>{563dac4b-3d58-40f9-a028-eaeebda930dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\基础系统">
+      <UniqueIdentifier>{0d8f1dd3-f0a6-4f49-8001-4faf3c5d2cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\角色管理">
+      <UniqueIdentifier>{c693d4b6-7654-4e6c-94ae-8f811ffb6304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\游戏系统">
+      <UniqueIdentifier>{aa61141c-0401-4085-a487-1820f63822f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\流程控制">
+      <UniqueIdentifier>{aeaed430-62a1-4e5c-8668-359ccf7d4f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\流程控制\游戏场景">
+      <UniqueIdentifier>{ff90fa04-d993-487e-87a2-35cbe9ab7ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\流程控制\关卡数据库">
+      <UniqueIdentifier>{7ff3ff32-fc3b-4094-a601-29e7af0b1211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\游戏系统\技能">
+      <UniqueIdentifier>{17788f52-9396-4625-9c8e-cc279343d0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\游戏场景">
+      <UniqueIdentifier>{afb8a005-135d-498e-9cd6-a9af3cc203c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="character_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="player_state_nodes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="state_machine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gameflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="projectile_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bullets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_state_nodes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_types.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_box.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="level_config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_boss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="music_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="boss_state_nodes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_gamewin.cpp">
+      <Filter>源文件\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_homepage.cpp">
+      <Filter>源文件\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_learn.cpp">
+      <Filter>源文件\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_level.cpp">
+      <Filter>源文件\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>源文件\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_skillselect.cpp">
+      <Filter>源文件\游戏场景</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="collision_box.h">
+      <Filter>头文件\碰撞管理</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_layer.h">
+      <Filter>头文件\碰撞管理</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_manager.h">
+      <Filter>头文件\碰撞管理</Filter>
+    </ClInclude>
+    <ClInclude Include="player_state_nodes.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="character_manager.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2d.h">
+      <Filter>头文件\基础系统</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件\基础系统</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件\基础系统</Filter>
+    </ClInclude>
+    <ClInclude Include="state_node.h">
+      <Filter>头文件\基础系统</Filter>
+    </ClInclude>
+    <ClInclude Include="state_machine.h">
+      <Filter>头文件\基础系统</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件\基础系统</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件\基础系统</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件\游戏系统</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>头文件\游戏系统</Filter>
+    </ClInclude>
+    <ClInclude Include="gameflow.h">
+      <Filter>头文件\流程控制</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_manager.h">
+      <Filter>头文件\游戏系统</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene.h">
+      <Filter>头文件\流程控制\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\流程控制</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_homepage.h">
+      <Filter>头文件\流程控制\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_level.h">
+      <Filter>头文件\流程控制\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_skillselect.h">
+      <Filter>头文件\流程控制\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_gamewin.h">
+      <Filter>头文件\流程控制\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_gamelose.h">
+      <Filter>头文件\流程控制\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile_manager.h">
+      <Filter>头文件\游戏系统</Filter>
+    </ClInclude>
+    <ClInclude Include="bullets.h">
+      <Filter>头文件\游戏系统</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_state_nodes.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_types.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="level_config.h">
+      <Filter>头文件\流程控制\关卡数据库</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>头文件\游戏系统\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_boss.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="music_manager.h">
+      <Filter>头文件\基础系统</Filter>
+    </ClInclude>
+    <ClInclude Include="boss_state_nodes.h">
+      <Filter>头文件\角色管理</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_learn.h">
+      <Filter>头文件\流程控制\游戏场景</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

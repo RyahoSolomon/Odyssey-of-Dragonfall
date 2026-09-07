@@ -1,0 +1,21 @@
+# Visual Studio local state and generated files
+.vs/
+*.user
+*.suo
+*.aps
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.tlog/
+
+# Local build output (keep the distributable release/ folder)
+/source/Debug/
+/source/Release/
+/source/x64/
+/source/x86/
+
+# Local secrets
+.env
+.env.*
+!.env.example
